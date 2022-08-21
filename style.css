@@ -1,3 +1,5 @@
+
+
 body {
   background-color: #000;
 }
@@ -5,6 +7,7 @@ body {
   position: relative;
   height: 100vh;
   background: url("img/hogwarts.jpeg") -1100px 0 / cover no-repeat;
+  overflow: hidden;
 }
 .container {
   height: 100vh;
@@ -34,13 +37,13 @@ body {
 }
 
 .header__title {
-  font-family: "Harry Potter", sans-serif;
+  font-family: 'Henny Penny', cursive;
   flex-grow: 1;
   text-align: center;
   font-size: 40px;
   padding: 16px 10px 0px 0px;
   color: rgb(166, 128, 32);
-  letter-spacing: 4px;
+  letter-spacing: 6px;
   user-select: none;
 }
 
@@ -55,7 +58,6 @@ body {
   transition: all linear 0.3s;
 }
 .nav {
-  
   position: absolute;
   visibility: visible;
   grid-area: nav;
@@ -65,7 +67,6 @@ body {
   max-width: 400px;
   left: 0;
   height: 100vh;
-
 }
 .nav__list {
   display: flex;
@@ -75,7 +76,7 @@ body {
   padding: 100px 20px;
 }
 .nav__item {
-  font-family: "Harry Potter", sans-serif;
+  font-family: 'Henny Penny', cursive;
   text-align: center;
 }
 .nav__link {
@@ -115,7 +116,6 @@ nav.nav__full {
   top: 10%;
   left: 30%;
   padding: 20px;
-
   margin: auto auto;
   overflow: auto;
   height: 90%;
@@ -133,7 +133,6 @@ nav.nav__full {
 .main__img {
   margin: 0px 0px 50px 0px;
   width: 25%;
-
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -184,11 +183,9 @@ nav.nav__full {
   }
 }
 @media (min-width: 426px) and (max-width: 991px) { 
-
   .header {
     height: 50px;
   }
-
   .header__title {
     font-size: 26px;
   }
