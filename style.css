@@ -120,11 +120,6 @@ nav.nav__full {
   overflow: auto;
   height: 90%;
 }
-.cache {
-  width: 0;
-  height: 0;
-  overflow: hidden;
-}
 .main__article {
   width: 60%;
   margin: 0 auto;
@@ -231,3 +226,5 @@ nav.nav__full {
     opacity: 1;
   }
 }
+
+

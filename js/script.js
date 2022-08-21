@@ -1,4 +1,3 @@
-
 const DATA = [
     {
         title: 'The Houses of Hogwarts',
