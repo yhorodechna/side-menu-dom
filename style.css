@@ -41,7 +41,7 @@ body {
   flex-grow: 1;
   text-align: center;
   font-size: 40px;
-  padding: 16px 10px 0px 0px;
+  padding: 16px 10px 0px 50px;
   color: rgb(166, 128, 32);
   letter-spacing: 6px;
   user-select: none;
@@ -163,7 +163,7 @@ nav.nav__full {
 .main__author {
   border-radius: 0px 0px 10px 10px;
 }
-@media (max-width: 425px) {
+@media (max-width: 475px) {
   .header {
     height: 50px;
   }
@@ -182,7 +182,7 @@ nav.nav__full {
     width: 90%;
   }
 }
-@media (min-width: 426px) and (max-width: 991px) { 
+@media (min-width: 476px) and (max-width: 991px) { 
   .header {
     height: 50px;
   }
