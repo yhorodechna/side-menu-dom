@@ -3,7 +3,7 @@ const DATA = [
     {
         title: 'The Houses of Hogwarts',
         bgImg: '../img/hogwarts.jpeg',
-        bgLocation: '-900',
+        bgLocation: '-1100px',
         img: '',
         desc: '',
         quote: '',
