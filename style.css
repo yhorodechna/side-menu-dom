@@ -1,7 +1,7 @@
 body {
   background-color: #000;
   cursor: url("img/wand.png"), auto;
-
+  user-select: none;
 }
 .wrapper {
   position: relative;
@@ -127,7 +127,7 @@ nav.nav__full {
   display: none;
 }
 .main__article {
-  width: 60%;
+  width: 80%;
   margin: 0 auto;
   position: relative;
 }
